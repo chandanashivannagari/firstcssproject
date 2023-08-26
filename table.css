@@ -1,0 +1,50 @@
+Sure, here's a CSS code snippet that meets your requirements for styling the table:
+
+```css
+/* table.css */
+
+/* 1) Style the table using at least four properties */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #333;
+    font-family: Arial, sans-serif;
+}
+
+/* 2) Style the table headings */
+th {
+    border: 1px solid #333;
+    background-color:yellow;
+    border-bottom: 3px solid orange;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 3) Align text in columns */
+td:first-child {
+    text-align: left;
+}
+
+td:not(:first-child) {
+    text-align: center;
+    background-color: lightcyan;
+}
+
+/* 4) Set opacity of table rows */
+tr {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* 5) Change opacity on hover */
+tr:hover {
+    opacity: 0.8;
+}
+
+/* 6) Style table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+

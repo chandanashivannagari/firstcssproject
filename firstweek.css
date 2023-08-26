@@ -1,0 +1,82 @@
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color:green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+}
+.heading {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOKbDlnDxOgOtNQXd1nQAC90N5060fclqsQ&usqp=CAU.jpg");  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: white; /* Set text color to contrast with the background */
+}
+.heading h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+.image-container img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.content-container {
+  margin:0;
+  flex: 2;
+  padding: 0 20px;
+}
+
+
+
+
